@@ -18,6 +18,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cmc.device_type=pd \
     ro.cmc.version=2.0
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Dalvik dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
