@@ -132,6 +132,7 @@ include device/lineage/sepolicy/exynos/sepolicy.mk
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private 
 
 # Shims
 TARGET_LD_SHIM_LIBS += \
