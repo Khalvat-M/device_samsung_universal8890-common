@@ -362,6 +362,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0 \
     android.hardware.wifi@1.0-impl \
     android.hardware.wifi@1.0-service \
+    CarrierConfigOverlay \
     hostapd \
     libwpa_client \
     TetheringConfigOverlay \
