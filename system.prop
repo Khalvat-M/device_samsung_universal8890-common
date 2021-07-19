@@ -18,9 +18,6 @@ ro.cmc.version=2.0
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
-# Factory Reset Protection
-ro.frp.pst=/dev/block/persistent
-
 # Graphics
 debug.hwc.winupdate=1
 debug.sf.disable_backpressure=1

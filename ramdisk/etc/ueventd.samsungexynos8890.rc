@@ -209,9 +209,3 @@
 
 # USB
 /dev/ttyGS*               0660   system     system
-
-# Google FRP solution
-/dev/block/platform/155a0000.ufs/by-name/PERSISTENT    0660    system    system
-
-# Reactivation Lock
-/dev/block/platform/155a0000.ufs/by-name/STEADY    0660    system    system

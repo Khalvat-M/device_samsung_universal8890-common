@@ -22,11 +22,6 @@ on init
     #export SECONDARY_STORAGE /storage/extSdCard
 
     symlink /data/app /factory
-    #Reactivation Lock
-    symlink /dev/block/platform/155a0000.ufs/by-name/STEADY /dev/block/steady
-
-    #Google FRP solution
-    symlink /dev/block/platform/155a0000.ufs/by-name/PERSISTENT /dev/block/persistent
 
     write /proc/sys/vm/page-cluster 0
 
