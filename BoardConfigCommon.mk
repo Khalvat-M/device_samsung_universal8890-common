@@ -108,9 +108,6 @@ TARGET_BOARD_PLATFORM := exynos5
 TARGET_BOOTLOADER_BOARD_NAME := universal8890
 TARGET_SOC := exynos8890
 
-# Properties
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/ramdisk/etc/fstab.samsungexynos8890

@@ -379,5 +379,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
+# System Properties
+$(call inherit-product, device/samsung/universal8890-common/system_prop.mk)
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal8890-common/universal8890-common-vendor.mk)
