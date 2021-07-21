@@ -359,17 +359,18 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.0-impl \
+    android.hardware.wifi@1.0-service \
     hostapd \
-    wificond \
-    wifilogd \
-    wlutil \
     libwpa_client \
     TetheringConfigOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
-    android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.0-impl \
-    android.hardware.wifi@1.0-service
+    wificond \
+    wifilogd \
+    wlutil \
+    WifiOverlay
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
