@@ -31,13 +31,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.slsi_platform=1 \
     debug.hwc.winupdate=1 \
     debug.sf.disable_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.recomputecrop=0 \
+    persist.sys.sf.color_saturation=1.0 \
+    persist.sys.sf.native_mode=2 \
+    ro.hardware.vulkan=mali \
     ro.hardware.egl=mali \
     ro.opengles.version=196610 \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
+    ro.surface_flinger.max_virtual_display_dimension=4096
 
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
